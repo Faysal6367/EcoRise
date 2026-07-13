@@ -9,7 +9,7 @@ if (!is_logged_in()) {
     http_response_code(401);
     echo json_encode(['status' => 'error', 'message' => 'Unauthorized']);
     exit;
-}
+}//Fetch notifications for the logged-in user
 
 $user_id = (int) $_SESSION['user_id'];
 $limit = filter_var($_GET['limit'] ?? 8, FILTER_VALIDATE_INT);

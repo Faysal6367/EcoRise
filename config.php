@@ -47,7 +47,7 @@ try {
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
-
+//configure session cookie parameters for security
 /**
  * Generate CSRF Token for form security
  */

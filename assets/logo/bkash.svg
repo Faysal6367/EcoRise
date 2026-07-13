@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="bKash">
+  <defs>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e2136e"/>
+      <stop offset="100%" stop-color="#b10d54"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="20" fill="url(#g3)"/>
+  <path d="M30 68L52 40l16 16-22 14z" fill="#fff" opacity="0.95"/>
+  <path d="M54 40l24 8-10 16-16-8z" fill="#ffe3ef"/>
+  <text x="60" y="102" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="700" fill="#fff">bKash</text>
+</svg>

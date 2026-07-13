@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="Nagad">
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff7a00"/>
+      <stop offset="100%" stop-color="#f44336"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="20" fill="url(#g2)"/>
+  <circle cx="60" cy="48" r="22" fill="#fff" opacity="0.92"/>
+  <path d="M60 28a20 20 0 1 1 0 40a16 16 0 1 0 0-32a20 20 0 0 0 0-8z" fill="#ff4d1f"/>
+  <text x="60" y="102" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" font-weight="700" fill="#fff">Nagad</text>
+</svg>

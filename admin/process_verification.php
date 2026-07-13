@@ -7,6 +7,7 @@ require_once '../config.php';
 if (!is_admin()) {
     redirect('../signin.php', 'Restricted access.', 'error');
 }
+//process the verification request based on the action (approve or reject)
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     redirect('volunteers.php');
